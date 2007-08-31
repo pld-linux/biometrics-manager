@@ -1,0 +1,54 @@
+diff -urN biometrics-manager-0.4.0/pixmaps/16x16/devices/Makefile.am biometrics-manager-0.4.0.new/pixmaps/16x16/devices/Makefile.am
+--- biometrics-manager-0.4.0/pixmaps/16x16/devices/Makefile.am	2007-01-10 17:00:32.000000000 +0100
++++ biometrics-manager-0.4.0.new/pixmaps/16x16/devices/Makefile.am	2007-08-31 19:15:47.000000000 +0200
+@@ -1,4 +1,4 @@
+ PNG = fingerprint.png 
+-pixmapdir = $(datadir)/icons/gnome/16x16/devices/
++pixmapdir = $(datadir)/icons/hicolor/16x16/devices/
+ pixmap_DATA = ${PNG}
+ EXTRA_DIST = $(PNG)
+diff -urN biometrics-manager-0.4.0/pixmaps/22x22/devices/Makefile.am biometrics-manager-0.4.0.new/pixmaps/22x22/devices/Makefile.am
+--- biometrics-manager-0.4.0/pixmaps/22x22/devices/Makefile.am	2007-01-10 17:00:47.000000000 +0100
++++ biometrics-manager-0.4.0.new/pixmaps/22x22/devices/Makefile.am	2007-08-31 19:15:58.000000000 +0200
+@@ -1,4 +1,4 @@
+ PNG = fingerprint.png 
+-pixmapdir = $(datadir)/icons/gnome/22x22/devices/
++pixmapdir = $(datadir)/icons/hicolor/22x22/devices/
+ pixmap_DATA = ${PNG}
+ EXTRA_DIST = $(PNG)
+diff -urN biometrics-manager-0.4.0/pixmaps/24x24/devices/Makefile.am biometrics-manager-0.4.0.new/pixmaps/24x24/devices/Makefile.am
+--- biometrics-manager-0.4.0/pixmaps/24x24/devices/Makefile.am	2007-01-10 17:00:58.000000000 +0100
++++ biometrics-manager-0.4.0.new/pixmaps/24x24/devices/Makefile.am	2007-08-31 19:16:08.000000000 +0200
+@@ -1,4 +1,4 @@
+ PNG = fingerprint.png 
+-pixmapdir = $(datadir)/icons/gnome/24x24/devices/
++pixmapdir = $(datadir)/icons/hicolor/24x24/devices/
+ pixmap_DATA = ${PNG}
+ EXTRA_DIST = $(PNG)
+diff -urN biometrics-manager-0.4.0/pixmaps/32x32/devices/Makefile.am biometrics-manager-0.4.0.new/pixmaps/32x32/devices/Makefile.am
+--- biometrics-manager-0.4.0/pixmaps/32x32/devices/Makefile.am	2007-01-10 17:01:11.000000000 +0100
++++ biometrics-manager-0.4.0.new/pixmaps/32x32/devices/Makefile.am	2007-08-31 19:16:18.000000000 +0200
+@@ -1,4 +1,4 @@
+ PNG = fingerprint.png 
+-pixmapdir = $(datadir)/icons/gnome/32x32/devices/
++pixmapdir = $(datadir)/icons/hicolor/32x32/devices/
+ pixmap_DATA = ${PNG}
+ EXTRA_DIST = $(PNG)
+diff -urN biometrics-manager-0.4.0/pixmaps/48x48/devices/Makefile.am biometrics-manager-0.4.0.new/pixmaps/48x48/devices/Makefile.am
+--- biometrics-manager-0.4.0/pixmaps/48x48/devices/Makefile.am	2007-01-10 17:01:26.000000000 +0100
++++ biometrics-manager-0.4.0.new/pixmaps/48x48/devices/Makefile.am	2007-08-31 19:16:29.000000000 +0200
+@@ -1,4 +1,4 @@
+ PNG = fingerprint.png 
+-pixmapdir = $(datadir)/icons/gnome/48x48/devices/
++pixmapdir = $(datadir)/icons/hicolor/48x48/devices/
+ pixmap_DATA = ${PNG}
+ EXTRA_DIST = $(PNG)
+diff -urN biometrics-manager-0.4.0/pixmaps/64x64/devices/Makefile.am biometrics-manager-0.4.0.new/pixmaps/64x64/devices/Makefile.am
+--- biometrics-manager-0.4.0/pixmaps/64x64/devices/Makefile.am	2007-01-10 17:01:40.000000000 +0100
++++ biometrics-manager-0.4.0.new/pixmaps/64x64/devices/Makefile.am	2007-08-31 19:16:39.000000000 +0200
+@@ -1,4 +1,4 @@
+ PNG = fingerprint.png 
+-pixmapdir = $(datadir)/icons/gnome/64x64/devices/
++pixmapdir = $(datadir)/icons/hicolor/64x64/devices/
+ pixmap_DATA = ${PNG}
+ EXTRA_DIST = $(PNG)
