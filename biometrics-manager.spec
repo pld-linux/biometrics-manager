@@ -2,7 +2,7 @@
 Summary:	Graphical frontend for pam_bioapi enrollment.
 Name:		biometrics-manager
 Version:	0.4.0
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://pam-bioapi.googlecode.com/files/%{name}-%{version}.tar.gz
@@ -50,6 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_docdir}/%{name}/*
 %{_desktopdir}/fingerprint-manager.desktop
 %dir %{_datadir}/%{name}
+%dir %{_datadir}/%{name}/glade
 %{_datadir}/%{name}/glade/fingerprint-manager.glade
 %{_datadir}/%{name}/glade/hands.png
 %{_iconsdir}/gnome/*/devices/fingerprint.png
