@@ -1,8 +1,9 @@
 Summary:	Graphical frontend for pam_bioapi enrollment
+Summary(pl.UTF-8):	Graficzny interfejs do rejestrowania pam_bioapi
 Name:		biometrics-manager
 Version:	0.4.0
 Release:	0.3
-License:	GPL
+License:	GPL v2+
 Group:		X11/Applications/Networking
 Source0:	http://pam-bioapi.googlecode.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	a6bc4a8629ad6ed1fa3d497a2c5cd415
@@ -11,17 +12,21 @@ Patch1:		%{name}-use_hicolor.patch
 URL:		http://code.google.com/p/pam-bioapi/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	libglade2-devel
-BuildRequires:	libgnomeui-devel
+BuildRequires:	libglade2-devel >= 2.0
+BuildRequires:	libgnomeui-devel >= 2.0
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.311
-BuildRequires:	xorg-lib-libX11-devel
 Requires(post,postun):	gtk+2
 Requires:	hicolor-icon-theme
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is graphical frontend for pam_bioapi enrollment. It uses gnome
+This is graphical frontend for pam_bioapi enrollment. It uses GNOME
 (glade) libs.
+
+%description -l pl.UTF-8
+Ten pakiet zawiera graficzny interfejs do rejestrowania pam_bioapi.
+Wykorzystuje biblioteki GNOME (glade).
 
 %prep
 %setup -q
@@ -56,7 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/%{name}
-%{_sysconfdir}/pam.d/%{name}
+/etc/pam.d/%{name}
 %dir %{_docdir}/%{name}
 %doc %{_docdir}/%{name}/*
 %{_desktopdir}/fingerprint-manager.desktop
