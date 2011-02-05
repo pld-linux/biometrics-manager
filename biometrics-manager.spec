@@ -2,7 +2,7 @@ Summary:	Graphical frontend for pam_bioapi enrollment
 Summary(pl.UTF-8):	Graficzny interfejs do rejestrowania pam_bioapi
 Name:		biometrics-manager
 Version:	0.4.0
-Release:	0.3
+Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Networking
 Source0:	http://pam-bioapi.googlecode.com/files/%{name}-%{version}.tar.gz
