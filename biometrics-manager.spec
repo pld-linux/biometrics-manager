@@ -12,7 +12,7 @@ Patch1:		%{name}-use_hicolor.patch
 URL:		http://code.google.com/p/pam-bioapi/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libglade2-devel >= 2.0
 BuildRequires:	libgnomeui-devel >= 2.0
 BuildRequires:	libtool
